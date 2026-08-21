@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Anova",
+        "description": "Enter the email and password for the Anova account the oven is registered to (the same login as the Anova app). This connects to Anova's cloud service — the Precision Oven has no local API.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-enter Anova password",
+        "description": "Anova's cloud rejected the stored password for {email}. Enter the current one.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Anova rejected that email/password.",
+      "cannot_connect": "Could not reach Anova's cloud service.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This Anova account is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Favorite recipes",
+        "description": "One switch per recipe, in addition to the always-present Power switch. Edit as JSON — same stage-graph shape as the plugin's config.json.example.",
+        "data": {
+          "recipes": "Recipes (JSON)"
+        }
+      }
+    },
+    "error": {
+      "invalid_recipes": "That isn't valid recipes JSON — check it's a non-empty list of {name, stages} objects."
+    }
+  }
+}
