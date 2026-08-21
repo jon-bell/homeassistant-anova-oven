@@ -91,7 +91,10 @@ Settings → Devices & Services) rather than failing silently.
 ## Disclaimer
 
 Not affiliated with or endorsed by Anova Culinary. "Anova" and "Precision Oven" are trademarks
-of their respective owner, used here only to describe compatibility.
+of their respective owner, used here only to describe compatibility. The icon is an original
+illustration (AI-generated, not the real product design) — the control panel is drawn as a QR
+code as a joke about the oven having essentially no physical controls of its own; everything
+short of "on" runs through Anova's app or, now, this integration.
 
 ## License
 
