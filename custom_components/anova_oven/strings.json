@@ -38,7 +38,7 @@
       }
     },
     "error": {
-      "invalid_recipes": "That isn't valid recipes JSON — check it's a non-empty list of {name, stages} objects."
+      "invalid_recipes": "That isn't valid recipes JSON — check it's a non-empty list of recipe objects, each with a name and a stages array."
     }
   }
 }
